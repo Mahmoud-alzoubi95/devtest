@@ -1,0 +1,120 @@
+body{
+    box-sizing: border-box;
+    background: linear-gradient(-45deg, #ee7752, #00A4BD, #964F93, #23d5ab);
+    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+    color: #00ddff;
+    display: inline-block;
+    padding-top: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    /* text-shadow: 0px 1.5px 1.5px #858585; */
+}
+
+.defualtview{
+    padding: 15px;
+    /* width: 90%; */
+}
+
+.workspace{
+  text-align: center;
+  width: 35%;
+  margin: auto;
+  background-color: #003147;
+  box-shadow: 5px 3px 5px 3px rgba(109, 109, 109, 0.2);
+  border-radius: 30px;
+}
+
+button{
+    margin-inline: 5px;
+    /* border: 2px inset; */
+    /* border-color: #00A4BD #33475B #FF7A59; */
+    border-radius: 8px;
+  color: rgb(7, 7, 7);
+  padding: 10px 20px;
+  background-color: #E6F4F1;
+}
+
+
+button:hover {
+    background-color: #00ddff;
+    cursor: pointer;
+}
+
+
+.rendersection{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content{
+  padding: 5px;
+  border: 2px inset;
+  border-color: #00A4BD #33475B #A789C4;
+  background-color: #E6F4F1;
+  width: 350px;
+  margin-left: 40px;
+  border-radius: 10px;
+  margin-top: 5px;
+  text-align: left;
+  
+}
+
+.content:hover {
+  background-color: #00BBBC;
+}
+
+p{
+    display: inline-block;
+    /* margin: 20px; */
+}
+
+.flname{
+  border: 2px inset;
+  border-color: #00A4BD #33475B #A789C4;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 10px;
+  font-weight: bolder;
+
+}
+
+.firstlast{
+  margin-left: 50px;
+}
+
+.categnum{
+  float: right;
+  margin-right: 15px;
+  border: 2px inset;
+  border-color: #00A4BD #33475B #A789C4;
+  border-radius: 10%;
+  width: 60px;
+  height: 35px;
+  text-align: center;
+  padding: 5px;
+  background-color: #e2e2e2 ;
+}
